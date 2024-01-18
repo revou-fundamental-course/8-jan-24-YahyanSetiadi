@@ -178,3 +178,18 @@ span {
     width: 90%;
   }
 }
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #0bdff3;
+  color: #000;
+  font-size: 15px;
+}
+
+.footer {
+  text-decoration: none;
+}
+#fKeliling {
+  background-color: #42f46c;
+}
