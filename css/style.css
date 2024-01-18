@@ -158,3 +158,25 @@ span {
 .reset-button:hover {
   background-color: goldenrod;
 }
+
+/* Responsive styles for tablets */
+@media only screen and (max-width: 768px) {
+  .card {
+    width: 80%;
+  }
+
+  .inner-card-image {
+    width: 80%;
+  }
+}
+
+/* Responsive styles for mobile devices */
+@media only screen and (max-width: 480px) {
+  .card {
+    width: 90%;
+  }
+
+  .inner-card-image {
+    width: 90%;
+  }
+}
