@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator Matematika</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="keliling"><span>Katik</span> &nbsp; kalkulator matematik</header>
+    <div class="card">
+      <h2 class="card-title">Welcome to Katik</h2>
+      <p class="card-description">
+        Hai Sobat selamat datang di katik 😊 <br />
+        Sebuah Web untuk menghitung Luas Persegi dan Keliling Persegi
+      </p>
+      <div class="jenis">
+        <a type="button" href="index.html" class="box button1">Luas Persegi</a>
+        <a type="button" href="keliling.html" class="box button2">Keliling Persegi</a>
+      </div>
+      <!-- Card pertama -->
+      <div class="inner-card">
+        <div class="head">
+          <h2>Keliling Persegi</h2>
+        </div>
+        <div class="inner-card-image-container">
+          <img src="assets/keliling.jpg" alt="Image 1" class="inner-card-image" />
+        </div>
+        <div class="inner-card-content">
+          <h3 class="inner-card-title">Hitung Keliling Persegi</h3>
+          <p class="inner-card-description">K = 4 x Sisi</p>
+          <p style="text-align: start">
+            Dimana : <br />
+            <br />
+            K : adalah Keliling Persegi <br />
+            S : Adalah Sisi Persegi
+          </p>
+          <input type="number" class="input-number" id="sisiInput" placeholder="Masukan Nilai Sisi" />
+          <div class="button-container">
+            <button class="calculate-button-k" onclick="hitungKeliling()">Hitung</button>
+            <button class="reset-button" onclick="resetFormKeliling()">Reset</button>
+          </div>
+          <p id="hasilKeliling" class="result" style="font-size: 25px"></p>
+        </div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
