@@ -23,7 +23,6 @@ span {
   font-size: 25px;
 }
 
-/* button */
 .jenis {
   display: flex;
   align-items: center;
@@ -55,7 +54,6 @@ span {
   color: #000;
 }
 
-/* card */
 .card {
   border: 1px solid #ccc;
   border-radius: 5px;
